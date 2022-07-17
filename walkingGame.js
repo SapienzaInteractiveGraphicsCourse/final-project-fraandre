@@ -1,10 +1,10 @@
 "use strict";
 import * as THREE from 'three';
-import {OrbitControls} from './three.js/examples/jsm/controls/OrbitControls.js';
-import {GUI} from './three.js/examples/jsm/libs/lil-gui.module.min.js';
-import { TWEEN } from './three.js/examples/jsm/libs/tween.module.min.js';
-import {OBJLoader} from './three.js/examples/jsm/loaders/OBJLoader.js';
-import { Water } from './three.js/examples/jsm/objects/Water2.js';
+import {OrbitControls} from './three.js/jsm/controls/OrbitControls.js';
+import {GUI} from './three.js/jsm/libs/lil-gui.module.min.js';
+import { TWEEN } from './three.js/jsm/libs/tween.module.min.js';
+import {OBJLoader} from './three.js/jsm/loaders/OBJLoader.js';
+import { Water } from './three.js/jsm/objects/Water2.js';
 
 window.focus(); // Capture keys right away (by default focus is on editor)
 
