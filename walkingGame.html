@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<section class="cover">
+    <div class="cover_filter">
+    <div class="cover_caption">
+      <div class="cover_caption_copy">
+				<canvas id="c"></canvas>
+					<div id="container1">
+						<p>LIFE <p id="life"></p></p>
+					 </div>
+					 <div id="container2">
+						 <p>SCORE <p id="score"></p></p>
+						</div>
+					<div id ="container3">
+						<button id="ButtonReset">RESTART</button>
+						<button onclick="location.href='./menu.html';">MENU</button>
+						<button id="ButtonFog">FOG</button>
+				 </div>
+				 <div id="container-message">
+					 <p id="fruit"></p>
+					 <p id="fall"></p>
+					 <p id="sting"></p>
+				 </div>
+      </div>
+    </div>
+	</div>
+  </section>
+
+
+<script  type="importmap">{
+	"imports": {
+		"three": "./three.js/build/three.module.js"
+	}
+}</script>
+
+
+
+<script type="module" src="walkingGame.js"></script>
+<link rel="stylesheet" href="walkingGame.css">
+</body>
+</html>
